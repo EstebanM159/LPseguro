@@ -111,14 +111,20 @@ header .abrir {
         font-weight: 700;
         padding: 0 2rem;
     }
-
+    
     .logo-boton .navegacion-enlaces .enlace:last-child {
         border: 1px solid black;
         padding: 1rem 2rem;
         color: black;
         font-weight: 700;
     }
-
+    .logo-boton .navegacion-enlaces .enlace:last-child:hover{
+        background-color: var(--violetaOscuro);
+        color: var(--grisClarito);
+    }
+}
+.navegacion-enlaces .enlace:hover{
+    color:var(--violetaOscuro)
 }
 .navegacion-enlaces {
     background: var(--violetaMuyOscuro);
@@ -268,7 +274,13 @@ header .abrir {
     border: 1px solid white;
     padding: 1rem 2rem;
 }
-
+.btn-viewPlans:hover{
+    background-color: var(--grisClarito);
+    color:var(--violetaOscuro)
+}
+.icon-social:hover{
+    filter: brightness(.2);
+}
 /* MEDIA QUERIE */
 @media (width>= 768px) {
     .btn-generico {
@@ -462,7 +474,9 @@ footer {
     text-align: center;
     padding-top: 3rem;
 }
-
+.ancle:hover{
+    text-decoration: underline;
+}
 /* MEDIA QUERIE */
 @media (width>= 768px) {
     .a-footer {
